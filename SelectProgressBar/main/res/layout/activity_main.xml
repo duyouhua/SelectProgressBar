@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hudson="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hudson.myrecyclerview.MainActivity">
+
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hudson:line_length="300dp"
+        hudson:text_size="12sp"
+        />
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hudson:style="vertical"
+    />
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hudson:style="vertical"
+    />
+    <com.hudson.myrecyclerview.SelectProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hudson:circle_color="#bb25f4"
+        hudson:line_color="#5500ff00"
+        hudson:style="vertical"
+    />
+        <com.hudson.myrecyclerview.SelectProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            hudson:circle_color="@android:color/holo_blue_bright"
+            hudson:style="vertical"
+        />
+
+        <com.hudson.myrecyclerview.SelectProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            hudson:text_size="15sp"
+            hudson:circle_radius="20dp"
+            hudson:style="vertical"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
