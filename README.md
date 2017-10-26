@@ -4,3 +4,5 @@
 # Usage
   You can access following site for the using in my repository.In this project,I use it to get a specific value in a range,such as choose a value for lyrics text size.
   https://github.com/HudsonAndroid/Dongling
+
+![image](https://github.com/HudsonAndroid/SelectProgressBar/raw/master/SelectProgressBar/result%20pictures/device-2017-04-11-135114.png) 
